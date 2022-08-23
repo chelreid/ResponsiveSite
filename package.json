@@ -1,0 +1,24 @@
+{
+	"name": "responsivesite",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"compile": "./node_modules/typescript/bin/tsc main.ts",
+		"dev": "ts-node main.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/chelreid/ResponsiveSite.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/chelreid/ResponsiveSite/issues"
+	},
+	"homepage": "https://github.com/chelreid/ResponsiveSite#readme",
+	"dependencies": {
+		"ts-node": "^10.9.1",
+		"typescript": "^4.7.4"
+	}
+}
